@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+  - lzm_flutter_main (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../lzm_flutter_main/.ios/Flutter/engine`)
+  - flutter_boost (from `../lzm_flutter_main/.ios/.symlinks/plugins/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../lzm_flutter_main/.ios/Flutter/FlutterPluginRegistrant`)
+  - lzm_flutter_main (from `../lzm_flutter_main/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../lzm_flutter_main/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../lzm_flutter_main/.ios/.symlinks/plugins/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../lzm_flutter_main/.ios/Flutter/FlutterPluginRegistrant"
+  lzm_flutter_main:
+    :path: "../lzm_flutter_main/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  flutter_boost: 6a73c54e5654df180c2cc379045b8cba9746fc8a
+  FlutterPluginRegistrant: 03a06fa5f754c611bb6c96f42acf9432e8c4515d
+  lzm_flutter_main: 555c86d452c0b2ca0ac5a1fbd7e7739f31fa0fa2
+
+PODFILE CHECKSUM: d44f1979a16afe6ee00a241da36e6fac111de1f6
+
+COCOAPODS: 1.11.3
